@@ -1,6 +1,7 @@
 const Discord = require('discord.js')
 const WOKComamnds = require('wokcommands')
 require('dotenv').config()
+require('./server')
 
 const client = new Discord.Client({
     partials: ['CHANNEL', 'MESSAGE', 'REACTION']
